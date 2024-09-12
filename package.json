@@ -1,0 +1,39 @@
+{
+    "name": "lufumart",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "start": "json-server --watch test.json --port 7000"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@heroicons/react": "^1.0.6",
+        "@mui/material": "^5.8.6",
+        "@reach/combobox": "^0.17.0",
+        "@react-google-maps/api": "^2.12.1",
+        "axios": "^0.26.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-hook-form": "^7.33.1",
+        "react-hot-toast": "^2.2.0",
+        "react-redux": "^7.2.8",
+        "react-router-dom": "^6.2.2",
+        "react-scripts": "^5.0.1",
+        "redux": "^4.2.0",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-thunk": "^2.4.1",
+        "swiper": "^8.3.1",
+        "use-places-autocomplete": "^4.0.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^1.0.7",
+        "autoprefixer": "^10.4.4",
+        "postcss": "^8.4.12",
+        "tailwindcss": "^3.0.23",
+        "vite": "^2.9.0"
+    }
+}

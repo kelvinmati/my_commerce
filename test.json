@@ -1,0 +1,10 @@
+{
+    "user_address": {
+        "username": "Jane",
+        "deliveryAddress": "Utengano house floor 2 room 12",
+        "country": "Uganda",
+        "zipCode": "23-3468",
+        "phoneNo": "0798673541",
+        "alternativeNo": "075673256357"
+    }
+}
