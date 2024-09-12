@@ -1,5 +1,7 @@
 import React, { useRef, useCallback, useState, useEffect } from "react";
 import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
+import dotenv from "dotenv";
+dotenv.config();
 import usePlacesAutocomplete, {
   getGeocode,
   getLatLng,
@@ -64,8 +66,8 @@ const MapComponent = ({ setOpen, setDeliveryAddress }) => {
   });
 
   const { isLoaded, loadError } = useLoadScript({
-    // googleMapsApiKey: "AIzaSyCrrqzlO5H6S3li-2B8SkfluHvQQMxq8D4",
-    googleMapsApiKey: "AIzaSyBYHRGJadNySkzYGvfz2jPdKe8v6X_99gc",
+    googleMapsApiKey: process.env.GOOGLE_API_KEY,
+
     libraries,
   });
   if (loadError) return "Error loading the map";
